@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-struct clt
+typedef struct clt
 {
        char* idclient;
        char* nom;

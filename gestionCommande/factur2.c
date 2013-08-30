@@ -1,20 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-         struct clt
+typedef struct clt
          {
                 int codeclient;
                 char* nom;
                 char* prenom;
                 char* adresse;
          }client;
-         struct cmd
+ typedef  struct cmd
          {
               struct clt code_client;  
                 int qualite;
                 float prixunit;
                 
          } commande;
-        struct fture
+typedef struct fture
          {
                struct clt code_client;
                float montant;
